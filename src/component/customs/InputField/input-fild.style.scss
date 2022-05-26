@@ -1,0 +1,22 @@
+.input-fild {
+  height: 40px;
+  input {
+    border: 1px solid #6509fe;
+    border-radius: 0.3rem 0 0 0.3rem;
+    background-color: transparent;
+    outline: none;
+    color: white;
+  }
+  input::placeholder{
+      color: #a0a0a0;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(101,9,254);
+    background: linear-gradient(90deg, rgba(101,9,254,1) 77%, rgba(128,55,255,1) 100%);
+    border-radius: 0 0.3rem 0.3rem 0;
+    padding: 0 20px;
+  }
+}
